@@ -1,0 +1,10 @@
+C:\Estudos\c#\CifraCesar\CifraDeCesar\bin\Release\CifraDeCesar.exe.config
+C:\Estudos\c#\CifraCesar\CifraDeCesar\bin\Release\CifraDeCesar.exe
+C:\Estudos\c#\CifraCesar\CifraDeCesar\bin\Release\CifraDeCesar.pdb
+C:\Estudos\c#\CifraCesar\CifraDeCesar\obj\Release\CifraDeCesar.Properties.Resources.resources
+C:\Estudos\c#\CifraCesar\CifraDeCesar\obj\Release\CifraDeCesar.csproj.GenerateResource.cache
+C:\Estudos\c#\CifraCesar\CifraDeCesar\obj\Release\CifraDeCesar.csproj.CoreCompileInputs.cache
+C:\Estudos\c#\CifraCesar\CifraDeCesar\obj\Release\CifraDeCesar.exe
+C:\Estudos\c#\CifraCesar\CifraDeCesar\obj\Release\CifraDeCesar.pdb
+C:\Estudos\c#\CifraCesar\CifraDeCesar\obj\Release\CifraDeCesar.csprojAssemblyReference.cache
+C:\Estudos\c#\CifraCesar\CifraDeCesar\obj\Release\CifraDeCesar.Form_Principal.resources
