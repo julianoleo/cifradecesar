@@ -12,33 +12,58 @@ namespace CifraDeCesar
 {
     public partial class Form_Principal : Form
     {
+        public int passo = 3;
+
         public Form_Principal()
         {
             InitializeComponent();
-            box_passo.Text = "3";
         }
 
         private void btn_cripto_Click(object sender, EventArgs e)
         {
             box_cript.Text = string.Empty;
-            int passo = Convert.ToInt32(box_passo.Text);
-            for(int i = 0; i < box_texto_original.Text.Length; i++)
+            string texto = (box_texto_original.Text).ToLower();
+            string textoFinal = "";
+
+            for(int i = 0; i < texto.Length; i++)
             {
-                int ASCII = (int)box_texto_original.Text[i];
-                int ASCIIC = ASCII + passo;
-                box_cript.Text += Char.ConvertFromUtf32(ASCIIC);
+                int letra = (int)texto[i];
+                if (letra < 97)
+                {
+                    letra = 32;
+                }
+                if(letra >= 97 && letra <= 119)
+                {
+                    letra = letra + passo;
+                } 
+                if(letra > 122)
+                {
+                    letra = letra - 26;
+                }                
+                textoFinal += Char.ConvertFromUtf32(letra);
+                box_cript.Text = textoFinal.ToUpper();
             }
         }
 
         private void btn_decripto_Click(object sender, EventArgs e)
         {
             box_decript.Text = string.Empty;
-            int passo = Convert.ToInt32(box_passo.Text);
-            for (int i = 0; i < box_cript.Text.Length; i++)
+            string texto = (box_cript.Text).ToLower();
+            string textoFinal = "";
+
+            for (int i = 0; i < texto.Length; i++)
             {
-                int ASCII = (int)box_cript.Text[i];
-                int ASCIIC = ASCII - passo;
-                box_decript.Text += Char.ConvertFromUtf32(ASCIIC);
+                int letra = (int)texto[i];
+                if (letra < 97)
+                {
+                    letra = 32;
+                }
+                if (letra >= 100 && letra <= 122)
+                {
+                    letra = letra - passo;
+                }
+                textoFinal += Char.ConvertFromUtf32(letra);
+                box_decript.Text = textoFinal.ToUpper();
             }
         }
 

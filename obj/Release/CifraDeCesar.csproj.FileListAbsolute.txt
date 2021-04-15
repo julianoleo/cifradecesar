@@ -8,3 +8,13 @@ C:\Estudos\c#\CifraCesar\CifraDeCesar\obj\Release\CifraDeCesar.exe
 C:\Estudos\c#\CifraCesar\CifraDeCesar\obj\Release\CifraDeCesar.pdb
 C:\Estudos\c#\CifraCesar\CifraDeCesar\obj\Release\CifraDeCesar.csprojAssemblyReference.cache
 C:\Estudos\c#\CifraCesar\CifraDeCesar\obj\Release\CifraDeCesar.Form_Principal.resources
+C:\cifra\cifradecesar\bin\Release\CifraDeCesar.exe.config
+C:\cifra\cifradecesar\bin\Release\CifraDeCesar.exe
+C:\cifra\cifradecesar\bin\Release\CifraDeCesar.pdb
+C:\cifra\cifradecesar\obj\Release\CifraDeCesar.csprojAssemblyReference.cache
+C:\cifra\cifradecesar\obj\Release\CifraDeCesar.Form_Principal.resources
+C:\cifra\cifradecesar\obj\Release\CifraDeCesar.Properties.Resources.resources
+C:\cifra\cifradecesar\obj\Release\CifraDeCesar.csproj.GenerateResource.cache
+C:\cifra\cifradecesar\obj\Release\CifraDeCesar.csproj.CoreCompileInputs.cache
+C:\cifra\cifradecesar\obj\Release\CifraDeCesar.exe
+C:\cifra\cifradecesar\obj\Release\CifraDeCesar.pdb
